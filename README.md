@@ -12,6 +12,9 @@ The app is built in React and uses the following SDK and library:
 
 * The [web3modal library](https://github.com/WalletConnect/web3modal) for enabling MetaMask to connect to the app
 
+> **Note**  
+>You might also be interested in the [XMTP Inbox app](https://github.com/xmtp-labs/xmtp-inbox-web), which takes a more opinionated approach than the XMTP Quickstart React App and showcases innovative ways of building with XMTP.
+
 ## Prerequisites
 
 To install and run the XMTP Quickstart React App, you must have the following prerequisites installed:
