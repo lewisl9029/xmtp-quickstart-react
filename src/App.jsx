@@ -1,4 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { WalletContextProvider } from "./contexts/WalletContext";
 import { XmtpContextProvider } from "./contexts/XmtpContext";
 import Home from "./components/Home";
@@ -13,11 +12,7 @@ function App() {
     <div className="App">
       <WalletContextProvider>
         <XmtpContextProvider>
-          <BrowserRouter>
-            <Routes>
-              <Route path="/" element={<Home />} />
-            </Routes>
-          </BrowserRouter>
+          <Home />
         </XmtpContextProvider>
       </WalletContextProvider>
     </div>
