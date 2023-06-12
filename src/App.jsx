@@ -1,3 +1,4 @@
+import "./polyfill.js"
 import { WalletContextProvider } from "./contexts/WalletContext";
 import { XmtpContextProvider } from "./contexts/XmtpContext";
 import Home from "./components/Home";

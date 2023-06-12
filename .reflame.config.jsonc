@@ -19,7 +19,6 @@
     "version": 2,
   },
   "scripts": [
-    "/polyfill.js",
     "/index.jsx"
   ],
   // Enables nodejs compatibility mode for extensionless imports for JS/TS modules
